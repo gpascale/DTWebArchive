@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DTWebResource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DTWebResource</TokenIdentifier>
+			<Abstract>A DTWebResource object represents a downloaded URL. It encapsulates the data of the download as well as other resource properties such as the URL, MIME type, and frame name.</Abstract>
+			<DeclaredIn>DTWebResource.h</DeclaredIn>
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DTWebResource/initWithData:URL:MIMEType:textEncodingName:frameName:</TokenIdentifier>
+			<Abstract>Initializes and returns a web resource instance.</Abstract>
+			<DeclaredIn>DTWebResource.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithData:(NSData *)data URL:(NSURL *)URL MIMEType:(NSString *)MIMEType textEncodingName:(NSString *)textEncodingName frameName:(NSString *)frameName</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract>The download data.</Abstract>
+				</Parameter><Parameter>
+					<Name>URL</Name>
+					<Abstract>The download URL.</Abstract>
+				</Parameter><Parameter>
+					<Name>MIMEType</Name>
+					<Abstract>The MIME type of the data.</Abstract>
+				</Parameter><Parameter>
+					<Name>textEncodingName</Name>
+					<Abstract>The IANA encoding name (for example, “utf-8” or “utf-16”). This parameter may be nil.</Abstract>
+				</Parameter><Parameter>
+					<Name>frameName</Name>
+					<Abstract>The name of the frame. Use this parameter if the resource represents the contents of an entire HTML frame; otherwise pass nil.</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract>An initialized web resource.</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithData:URL:MIMEType:textEncodingName:frameName:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DTWebResource/data</TokenIdentifier>
+			<Abstract>Returns the receiver’s data.</Abstract>
+			<DeclaredIn>DTWebResource.h</DeclaredIn>			
+			
+			<Declaration>- (NSData *)data</Declaration>
+			
+			<ReturnValue><Abstract>The download data.</Abstract></ReturnValue>
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DTWebResource/frameName</TokenIdentifier>
+			<Abstract>Returns the receiver’s frame name.</Abstract>
+			<DeclaredIn>DTWebResource.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)frameName</Declaration>
+			
+			<ReturnValue><Abstract>The name of the frame. If the receiver does not represent the contents of an entire HTML frame, this method returns nil.</Abstract></ReturnValue>
+			<Anchor>//api/name/frameName</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DTWebResource/MIMEType</TokenIdentifier>
+			<Abstract>Returns the receiver’s MIME type.</Abstract>
+			<DeclaredIn>DTWebResource.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)MIMEType</Declaration>
+			
+			<ReturnValue><Abstract>The MIME type of the data.</Abstract></ReturnValue>
+			<Anchor>//api/name/MIMEType</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DTWebResource/URL</TokenIdentifier>
+			<Abstract>Returns the receiver’s URL.</Abstract>
+			<DeclaredIn>DTWebResource.h</DeclaredIn>			
+			
+			<Declaration>- (NSURL *)URL</Declaration>
+			
+			<ReturnValue><Abstract>The download URL.</Abstract></ReturnValue>
+			<Anchor>//api/name/URL</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DTWebResource/textEncodingName</TokenIdentifier>
+			<Abstract>Returns the receiver’s text encoding name.</Abstract>
+			<DeclaredIn>DTWebResource.h</DeclaredIn>			
+			
+			<Declaration>- (NSString *)textEncodingName</Declaration>
+			
+			<ReturnValue><Abstract>The IANA encoding name (for example, “utf-8” or “utf-16”), or nil if the name does not exist.</Abstract></ReturnValue>
+			<Anchor>//api/name/textEncodingName</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

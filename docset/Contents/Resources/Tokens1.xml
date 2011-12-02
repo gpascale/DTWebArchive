@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/DTWebArchive.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/DTWebArchive</TokenIdentifier>
+			<Abstract>A DTWebArchive object represents a webpage that can be archived—for example, archived on disk or on the pasteboard. A DTWebArchive object contains the main resource, as well as the subresources and subframes of the main resource. The main resource can be an entire webpage, a portion of a webpage, or some other kind of data such as an image. Use this class to archive webpages, or place a portion of a webpage on the pasteboard, or to represent rich web content in any application.</Abstract>
+			<DeclaredIn>DTWebArchive.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DTWebArchive/initWithData:</TokenIdentifier>
+			<Abstract>Initializes and returns the receiver.</Abstract>
+			<DeclaredIn>DTWebArchive.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithData:(NSData *)data</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>data</Name>
+					<Abstract>The initial content data.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithData:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DTWebArchive/initWithMainResource:subresources:subframeArchives:</TokenIdentifier>
+			<Abstract>Initializes the receiver with a resource and optional subresources and subframe archives.</Abstract>
+			<DeclaredIn>DTWebArchive.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithMainResource:(DTWebResource *)mainResource subresources:(NSArray *)subresources subframeArchives:(NSArray *)subframeArchives</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mainResource</Name>
+					<Abstract>The main resource for the archive.</Abstract>
+				</Parameter><Parameter>
+					<Name>subresources</Name>
+					<Abstract>An array of DTWebResource objects or nil if none are specified.</Abstract>
+				</Parameter><Parameter>
+					<Name>subframeArchives</Name>
+					<Abstract>An array of DTWebArchive objects used by the sub frames or nil if none are specified.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithMainResource:subresources:subframeArchives:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DTWebArchive/mainResource</TokenIdentifier>
+			<Abstract>Returns the receiver’s main resource.</Abstract>
+			<DeclaredIn>DTWebArchive.h</DeclaredIn>			
+			
+			<Declaration>- (DTWebResource *)mainResource</Declaration>
+			
+			
+			<Anchor>//api/name/mainResource</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DTWebArchive/subresources</TokenIdentifier>
+			<Abstract>Returns the receiver’s sub resources, or nil if there are none.</Abstract>
+			<DeclaredIn>DTWebArchive.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)subresources</Declaration>
+			
+			
+			<Anchor>//api/name/subresources</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DTWebArchive/subframeArchives</TokenIdentifier>
+			<Abstract>Returns archives representing the receiver’s sub frame archives or nil if there are none.</Abstract>
+			<DeclaredIn>DTWebArchive.h</DeclaredIn>			
+			
+			<Declaration>- (NSArray *)subframeArchives</Declaration>
+			
+			
+			<Anchor>//api/name/subframeArchives</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/DTWebArchive/data</TokenIdentifier>
+			<Abstract>Returns the data representation of the receiver.</Abstract>
+			<DeclaredIn>DTWebArchive.h</DeclaredIn>			
+			
+			<Declaration>- (NSData *)data</Declaration>
+			
+			
+			<Anchor>//api/name/data</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

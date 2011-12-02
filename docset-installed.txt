@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/Oliver/Library/Developer/Shared/Documentation/DocSets/com.cocoanetics.DTWebArchive.docset
+Time: 2011-12-02 12:48:24 +0000
