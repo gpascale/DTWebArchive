@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:docset="http://developer.apple.com/rss/docset_extensions" xml:lang="en">
+    <id>http://cocoanetics.github.com/DTWebArchive/DTWebArchive.atom/20111202140302</id>
+    <title type="text">DTWebArchive Documentation</title>
+    <rights>Copyright © 2011 Cocoanetics. All rights reserved.</rights>
+    <link rel="self" href="http://cocoanetics.github.com/DTWebArchive/DTWebArchive.atom"></link>
+    <docset:publisherName>Cocoanetics</docset:publisherName>
+    <docset:publisherID>com.cocoanetics.documentation</docset:publisherID>
+    <updated>2011-12-02T14:03:02+01:00</updated>
+    <entry>
+        <id>tag:cocoanetics.github.com,2011-12-02:com.cocoanetics.DTWebArchive/1.0.0</id>
+        <title type="text">DTWebArchive Documentation</title>
+        <updated>2011-12-02T14:03:02+01:00</updated>
+        <content type="text">DTWebArchive Documentation (v1.0.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="http://cocoanetics.github.com/DTWebArchive/com.cocoanetics.DTWebArchive-1.0.xar" length="37571"></link>
+        <docset:identifier>com.cocoanetics.DTWebArchive</docset:identifier>
+        <docset:version>1.0.0</docset:version>
+        <docset:minimumXcodeVersion>3.0.0</docset:minimumXcodeVersion>
+    </entry>
+</feed>
