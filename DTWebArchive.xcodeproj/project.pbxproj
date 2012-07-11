@@ -21,6 +21,9 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		37EAD7761593F56B00834F17 /* DTWebArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = A74352CF14867A1C00F4C766 /* DTWebArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37EAD7771593F56B00834F17 /* DTWebResource.h in Headers */ = {isa = PBXBuildFile; fileRef = A74352D114867A1C00F4C766 /* DTWebResource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37EAD7781593F56B00834F17 /* UIPasteboard+DTWebArchive.h in Headers */ = {isa = PBXBuildFile; fileRef = A74352D514867A1C00F4C766 /* UIPasteboard+DTWebArchive.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A74352DF14867A1C00F4C766 /* OneImage.plist in Resources */ = {isa = PBXBuildFile; fileRef = A74352D814867A1C00F4C766 /* OneImage.plist */; };
 		A74352E014867A1C00F4C766 /* Simple.plist in Resources */ = {isa = PBXBuildFile; fileRef = A74352D914867A1C00F4C766 /* Simple.plist */; };
 		A74352E114867A1C00F4C766 /* YouTubeFrame.plist in Resources */ = {isa = PBXBuildFile; fileRef = A74352DA14867A1C00F4C766 /* YouTubeFrame.plist */; };
@@ -212,6 +215,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37EAD7761593F56B00834F17 /* DTWebArchive.h in Headers */,
+				37EAD7771593F56B00834F17 /* DTWebResource.h in Headers */,
+				37EAD7781593F56B00834F17 /* UIPasteboard+DTWebArchive.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +265,7 @@
 		A7697CC61410CC6400F25129 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = A7697CC91410CC6400F25129 /* Build configuration list for PBXProject "DTWebArchive" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -352,6 +358,7 @@
 				GCC_PREFIX_HEADER = "Core/DTWebArchive-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = DTWebArchive;
+				PUBLIC_HEADERS_FOLDER_PATH = include/DTWebArchive;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -365,6 +372,7 @@
 				GCC_PREFIX_HEADER = "Core/DTWebArchive-Prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = DTWebArchive;
+				PUBLIC_HEADERS_FOLDER_PATH = include/DTWebArchive;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
