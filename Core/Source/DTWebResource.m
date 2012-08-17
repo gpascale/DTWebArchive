@@ -69,7 +69,7 @@ NSString *WebResourceResponseKey = @"WebResourceResponse";
 	data = [dictionary objectForKey:WebResourceDataKey];
 	frameName = [dictionary objectForKey:WebResourceFrameNameKey]; 
 	mimeType = [dictionary objectForKey:WebResourceMIMETypeKey];
-	url = [NSURL URLWithString:[dictionary objectForKey:WebResourceURLKey]];
+	url = [NSURL URLWithString:[[dictionary objectForKey:WebResourceURLKey] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
 	textEncodingName = [dictionary objectForKey:WebResourceTextEncodingNameKey];
 	
 	// if we wanted to, here's the decoded response
